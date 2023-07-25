@@ -1,0 +1,68 @@
+
+  
+  
+ 
+  input:focus{
+    outline: none; 
+    color:#bc0000 ;}
+  
+  .navegacion{
+    width:600px;                  
+    margin: 60px auto;            
+    background-image: url(Fotos/fondo.jpg);        
+    opacity: 0.7;  
+  }
+              
+  .navegacion ul{
+    list-style: none;              
+  }
+              
+  .menu > li{
+    position: relative;            
+    display:inline-block;
+    
+  }
+              
+  .menu > li > a{
+    display:block;
+    padding: 30px 70px;
+    color:rgb(4, 246, 169);
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;    
+    text-decoration: none;
+  }
+  .menu li a:visited{
+    color:none;
+  }
+
+  .menu li a:hover{
+     
+    color: rgb(0, 0, 0);
+    transition: all .7s; 
+    transform: scale3d(1.1,1.1,1.1);
+     
+  }
+  
+  
+  .submenu{
+      position: fixed;       
+      background:none;
+      width: 100%;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity1.5s;
+  }
+  
+.submenu li a{
+      display: grid;
+      padding: 10px;
+      width: 100px;
+      color: #000000 (35,62,211);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-decoration: none;
+      background-image: url(Fotos/metal.png);
+      border-radius: 20%;
+  }
+  
+  .menu li:hover .submenu{
+      visibility: visible;
+      opacity: 1;}
